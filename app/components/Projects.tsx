@@ -2,7 +2,7 @@ const links = [
   {
     title: "Chat Application",
     link: "https://suhaasvijay.github.io/chat-application/",
-    imageUrl: "/projects/chatApplication.jpeg"
+    imageUrl: "/projects/chat-application.png"
   },
   {
     title: "QR Code Generator",
