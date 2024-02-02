@@ -1,5 +1,10 @@
 const links = [
   {
+    title: "Eco Bazaar",
+    link: "https://ecobazaar.netlify.app/",
+    imageUrl: "/Projects/eco-bazaar.jpeg"
+  },
+  {
     title: "Chat Application",
     link: "https://suhaasvijay.github.io/chat-application/",
     imageUrl: "/projects/chat-application.png"
@@ -25,7 +30,7 @@ export default function Projects() {
   return (
     <div className="pt-10">
       <h1 className='text-[50px] mt-10'>Projects</h1>
-      <div className='grid items-center justify-center md:pl-40 pt-14 w-full h-full grid-cols-1 my-10 rounded-md gap-y-10 md:grid-cols-2 2xl:grid-cols-4'>
+      <div className='grid items-center justify-center md:pl-40 pt-14 w-full h-full grid-cols-1 my-10 rounded-sm gap-y-10 md:grid-cols-2 2xl:grid-cols-4'>
         {links.map(({ title, link, imageUrl }) => (
           <a
             key={title}
